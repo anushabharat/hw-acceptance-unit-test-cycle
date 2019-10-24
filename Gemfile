@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 ruby '2.3.0'
 gem 'rails', '4.2.6'
 # Bundle edge Rails instead:
@@ -8,6 +9,16 @@ gem 'rails', '4.2.6'
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
   gem 'sqlite3'
+=======
+
+gem 'rails', '4.2.6'
+# Bundle edge Rails instead:
+# gem 'rails',     :git => 'git://github.com/rails/rails.git'
+gem 'pg', '~> 0.21'
+# for Heroku deployment - as described in Ap. A of ELLS book
+group :development, :test do
+  
+>>>>>>> 5321936b0ce7c917eb606d750257e71b4d874673
   gem 'byebug'
   gem 'database_cleaner', '1.4.1'
   gem 'capybara', '2.4.4'
@@ -23,7 +34,11 @@ group :test do
   gem 'simplecov', :require => false
 end
 group :production do
+<<<<<<< HEAD
   gem 'pg'
+=======
+  
+>>>>>>> 5321936b0ce7c917eb606d750257e71b4d874673
 end
 
 # Gems used only for assets and not required
